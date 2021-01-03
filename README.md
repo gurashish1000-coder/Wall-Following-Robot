@@ -14,7 +14,7 @@ In this the PID control is implemented for a robot to maintain a certain distanc
 
 ## Robot in motion
 <img src="resources/default.JPG"  >	
-<video src="resources/default.mp4" poster="resources/default.JPG" width="320" height="200" controls preload></video>	
+
 
 ## Support
 
