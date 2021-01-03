@@ -1,37 +1,19 @@
-# Note-Taker
+# Wall-Following-Robot
 
-A .NET Core WPF Note Taking app written using C#. 
+Wrote a Feed-back contreoller that makes the robot follow differential drive dynamics and the wall on the left. 
 
-This app is built keeping the MVVM design architecture in mind. The application uses Dapper and SQLite database to store and manage notes.
-
-The purpose of this application was for me to learn C# and learn MVVM design architecture.
-
-## Current Features 
-
-- Save Notes.
-- Delete Notes
-- Search Notes
-- Modify Notes
-- Great looking UI
+In this the PID control is implemented for a robot to maintain a certain distance from wall and follow the wall through curves as well. 
 
 ## Requirements
 
-- You will need to have .Net Core version 3 installed on your windows system.  
+- Ubuntu 18.04
+- ROS(melodic)
+- Gazebo 9
+- numpy, scipy, git
+- python 2 or 3
 
-- You will also need Visual Studio Code 19, to open and run the project. 
-
-## Installation
-
-- git clone the project repository
-- Open the project in Visual Studio Code 19.
-- Run it
-
-<img src="Images/NoteTaker.PNG"  >	
-
-## Features to Implement
-
-- In future I will be looking to add a Login/signup feature to the app to make it more secure and prevent anyone else from accessing the notes.
-- I am also working on feature to add audio logs as notes. In future this may even extend to video logs. 
+## Robot in motion
+<video src="resources/default.mp4" poster="resources/default.JPG" width="320" height="200" controls preload></video>	
 
 ## Support
 
